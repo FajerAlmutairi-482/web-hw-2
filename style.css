@@ -1,0 +1,150 @@
+
+
+/*  الصراحة ودي لو نطوف هالصفحة بالمرة لانها خايسة حيل سويتها وانا اسهر واعدل نومي و حرفيا فاضية بس بخليها لان صج تعتبتني ٣ايام عليها و البوسترز نار  */
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: monospace;
+    background-color:#003049;
+    font-size: 49px;
+  color:white;
+}
+
+/* navbar */
+nav{
+    background-color:#d62828;
+    height: 100px;
+    width: 100%;
+    position: relative;;
+}
+
+/* title */
+lable.logo {
+     color:#eae2b7;
+     font-size: 80px;
+     text-align: center;
+     padding:  0px;
+     margin: 50px;
+     font-weight: bold;
+     font-family: 'Courier New', Courier, monospace;
+     align-content: center;
+}
+a:hover {
+    color: rgb(255, 255, 255);}
+a{
+  text-decoration:none;
+  color:#eae2b7;
+}
+nav ul {
+     float: right;
+     margin-right: 20px;
+}
+nav ul li {
+    display: inline;
+    line-height: 80px;
+    margin: 06px;
+    padding: 6px;
+}
+
+nav ul li a {
+    color: #eae2b7;
+    font-size: 30px;
+    font-family: monospace;
+}
+  .sidenav a:hover { color:white;}  
+
+  h1{ 
+text-align:center;
+color:white;
+padding-top: 10px;
+  }
+  p{ 
+    text-align: center;
+    font-size:xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   width: 100%;
+   color:white;
+  }
+
+.hdr{
+  padding: 100px;
+  margin: 20px;
+  border-radius: 10px;
+  height: 200px;
+  background-color: #457b9d;
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+}
+
+/* btn */
+.btn{
+  height: 50px;
+ margin-left: 200px;
+ margin-bottom:50px ;
+}
+
+  /* السايد بار */
+  .sidebar{
+      width: 160px;
+      background-color: lightseagreen;
+      color: lightyellow;
+      position: fixed;
+     margin: 10px;
+     border-radius: 10px;
+     padding: 20px;
+     margin-top: 400px;
+  }
+  .sidebar li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
+  a{
+      color:white;
+      text-decoration: none;
+  }
+  a:hover{
+  color:burlywood;
+  }
+  h1{
+      margin: 0;
+      margin-right: 5px;
+  }
+  .container-3{
+    display:block;  
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin: 10px;
+    margin: 10px;
+text-align: center;
+  }
+
+  .container-3 h3{
+    font-size: 70px;
+    font-family: monospace;
+  }
+.container-3 p{
+  font-size: 35px;
+  text-align: center;
+  font-family: serif;
+  /* margin-right: 100px; 
+  margin-left: 100px; */
+}
+
+  footer{
+    padding: 20px;
+  }
+.end{
+ font: 50px;
+ text-align: left;
+ font-style: italic
+}
